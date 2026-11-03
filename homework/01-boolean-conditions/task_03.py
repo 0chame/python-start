@@ -13,7 +13,4 @@ adult = input("Со взрослым (да/нет): ")
 height_true = height > 120
 other = age >= 10 or 'да' == adult
 
-print(f"Рост, см: {height}")
-print(f"Возраст: {age}")
-print(f"Со взрослым (да/нет): {adult}")
 print(f"Можно на аттракцион: {height_true and other}")

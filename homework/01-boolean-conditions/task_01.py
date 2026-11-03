@@ -9,7 +9,4 @@ product = int(input("Введите остаток товара на склад�
 product_price = int(input("Введите стоимтость товара, руб.: "))
 money_buyers = int(input("Введите сколько денег у покупателя, руб.: "))
 
-print(f"Остаток на складе, шт.: {product}")
-print(f"Цена товара, руб.: {product_price}")
-print(f"Денег у покупателя, руб.: {money_buyers}")
 print(product != 0 and money_buyers >= product_price)

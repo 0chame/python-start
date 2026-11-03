@@ -10,6 +10,5 @@ age = int(input("Введите возраст: "))
 lgota = age < 18 or age >= 65
 full = not lgota
 
-print(f"Ввозраст: {age}")
 print(f"Льготный билет: {lgota}")
 print(f"Полный билет: {full}")
