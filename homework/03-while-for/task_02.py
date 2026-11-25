@@ -35,3 +35,12 @@
 #     Всего шагов: 12000
 
 # Решение
+step = int(input("Шагов за день(0 - конец): "))
+vsego_step = 0
+vsego_step += step
+
+while step > 0:
+    step = int(input("Шагов за день(0 - конец): "))
+    vsego_step += step 
+
+print(f"Всего шагов: {vsego_step}")

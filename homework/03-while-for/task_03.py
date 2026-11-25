@@ -27,3 +27,10 @@
 #     Цифр: 7
 
 # Решение
+natural_number = input("Натуральное число: ")
+vsego = 0
+
+for number in natural_number:
+    vsego += 1
+
+print(f"Цифр: {vsego}")

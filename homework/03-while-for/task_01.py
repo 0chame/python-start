@@ -36,3 +36,9 @@
 #     Старт!
 
 # Решение
+time = int(input("Секунд до старта: "))
+
+for start in range (time, 0, -1):
+    print(start)
+
+print("Старт!")

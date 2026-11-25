@@ -27,3 +27,10 @@
 #     Сумма цифр: 3
 
 # Решение
+natural = input("Номер заказа: ")
+summa_natural = 0
+
+for cifra in natural:
+    summa_natural += int(cifra)
+
+print(f"Сумма цифр: {summa_natural}")

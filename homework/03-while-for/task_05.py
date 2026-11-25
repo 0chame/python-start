@@ -35,3 +35,12 @@
 #     Доступ разрешён
 
 # Решение
+for PIN in range(3):
+    Pin_code = int(input("PIN-код: "))
+    
+    if Pin_code == 4821:
+        print ("Доступ разрешён")
+        break
+
+else:
+    print ("Карта заблокиравона")
