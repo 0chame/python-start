@@ -54,3 +54,8 @@
 #     -2 x 10 = -20
 
 # Решение
+number = int(input("Число: "))
+
+for x in range(1,10+1):
+    table = number * x
+    print(f"{number} x {x} = {table}")

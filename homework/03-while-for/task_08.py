@@ -1,3 +1,4 @@
+3
 # ДЗ 3, задача 8 «Угадай число» (★★★)
 # Задачник, задача 3.2.15: https://python-theory-makarov.vercel.app/zadachnik/3-2/index.html#p15
 #
@@ -48,3 +49,18 @@
 #     Попытки закончились
 
 # Решение
+attempt = 0
+
+for povtor in range (5,0,-1):
+    if povtor !=0:
+        dogatca = int(input("Ваша догатка: "))
+        attempt += 1
+        if dogatca == 37:
+            print(f"Угадано с попытки {attempt}")
+            break
+        elif dogatca < 37:
+            print("Больше")
+        else:
+            print("Меньше")
+else:
+    print("Попытки закончились")

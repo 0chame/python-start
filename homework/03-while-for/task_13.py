@@ -33,3 +33,10 @@
 #     10! = 3628800
 
 # Решение
+number = int(input("Число n: "))
+vsego =1
+
+for n in range (number,1,-1):
+    vsego *= n
+
+print(f"{number}! = {vsego}")

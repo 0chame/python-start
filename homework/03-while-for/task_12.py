@@ -28,3 +28,15 @@
 #     Слов: 0
 
 # Решение
+phrase = input("Фраза: ")
+
+if phrase == "":
+    words = 0
+else:
+    spaces = 0
+    for char in phrase:
+        if char == " ":
+            spaces += 1
+    words = spaces + 1
+
+print(f"Слов: {words}")

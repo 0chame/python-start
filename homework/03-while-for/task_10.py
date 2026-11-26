@@ -35,3 +35,12 @@
 #     Итого: 999 руб.
 
 # Решение
+buy = int(input("Число покупок: "))
+itog = 0
+
+while buy > 0:
+    buy -= 1
+    price = int(input("Цена покупки, руб.: "))
+    itog += price
+
+print(f"Итого: {itog} руб.")

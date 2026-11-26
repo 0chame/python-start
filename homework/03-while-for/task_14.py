@@ -47,3 +47,17 @@
 #     Среднее: 7.00
 
 # Решение
+pokaz = int(input("Число показаний: "))
+vsego = 0
+minimum = 0
+
+for n in range(pokaz+1,1,-1):
+    if n > 0:
+        temp = int(input("Показание, °C: "))
+        vsego += temp
+        if n == pokaz+1 or temp < minimum:
+            minimum = temp
+    srednee = vsego / pokaz
+
+print(f"Минимум: {minimum}")
+print(f"Среднее: {srednee:.2f}")
